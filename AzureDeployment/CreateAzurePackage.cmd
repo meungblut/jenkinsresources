@@ -1,0 +1,1 @@
+msbuild Tesco.SoaSpike.AzureDeployment\Tesco.SoaSpike.AzureDeployment.ccproj /p:Configuration=Release /p:DebugType=None /p:Platform=AnyCpu /p:TargetProfile=Cloud /t:publish /verbosity:quiet /p:VisualStudioVersion=12.0
