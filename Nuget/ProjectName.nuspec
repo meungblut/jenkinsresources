@@ -4,7 +4,7 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>Project title</title>
-    <authors>Possum</authors>
+    <authors>Matthew Eungblut</authors>
     <owners>$author$</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
