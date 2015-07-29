@@ -30,6 +30,8 @@ choco install dotnet3.5
 
 choco install NuGet.CommandLine 2.8.3
 
+choco install jmeter
+
 cd "C:\Program Files (x86)\Jenkins\war\WEB-INF"
 
 java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin http://updates.jenkins-ci.org/download/plugins/scm-api/0.2/scm-api.hpi
