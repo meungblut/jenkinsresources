@@ -1,5 +1,5 @@
 del *.nupkg
 
-nuget pack folder\dllproject.csproj
+nuget pack MEungblut.Websockets\MEungblut.Websockets.csproj
 
-nuget push *.nupkg -s http://nuget.azurewebsites.net/ 02CCA68B-BE35-BE0F-B06E-C908572600F2
+nuget push *.nupkg -s http://meungblutnuget.azurewebsites.net/ 02CCA68B-BE35-BE0F-B06E-C90857260049
