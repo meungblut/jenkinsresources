@@ -6,6 +6,7 @@ $path = [Environment]::GetEnvironmentVariable("PATH", "Machine")
 $path = $path + ';C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
 $path = $path + ';C:\Program Files (x86)\NUnit 2.6.3\bin'
 $path = $path + ';C:\Program Files (x86)\Jenkins\jre\bin'
+$path = $path + ';;C:\Program Files\Java\jdk1.7.0_76\bin'
 [Environment]::SetEnvironmentVariable("PATH", $path, "Machine")
 
 $env:PATH=$path
