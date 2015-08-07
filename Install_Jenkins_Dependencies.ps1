@@ -30,6 +30,8 @@ choco install dotnet3.5
 
 choco install NuGet.CommandLine 2.8.3
 
+choco install jdk7
+
 choco install jmeter
 
 cd "C:\Program Files (x86)\Jenkins\war\WEB-INF"
@@ -40,6 +42,7 @@ java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin http://updates
 java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin http://updates.jenkins-ci.org/download/plugins/msbuild/1.24/msbuild.hpi
 java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin http://updates.jenkins-ci.org/download/plugins/nunit/0.16/nunit.hpi
 java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin http://updates.jenkins-ci.org/download/plugins/powershell/1.2/powershell.hpi
+java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin http://updates.jenkins-ci.org/download/plugins/zapper/1.0.7/zapper.hpi
 
 
 $path = [Environment]::GetEnvironmentVariable("PATH", "Machine")
