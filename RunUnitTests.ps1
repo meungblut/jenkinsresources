@@ -1,3 +1,5 @@
+#credit Daniel McQuiston (http://stackoverflow.com/questions/9121312/how-do-you-run-nunit-tests-from-jenkins)
+
 param(
 [string] $sourceDirectory = $env:WORKSPACE
 , $fileFilters = @("*.UnitTests.dll", "*Acceptance.dll", "*UnitTests.dll")
